@@ -7,7 +7,7 @@ git clone --recursive https://github.com/libsdl-org/SDL.git build/SDL
 
 pushd build/SDL
 
-git checkout release-2.26.5 --force
+git checkout release-2.30.12 --force
 
 COMMON_HEADER_FILES=(
 "SDL.h"
@@ -60,6 +60,7 @@ COMMON_HEADER_FILES=(
 "SDL_version.h"
 "SDL_video.h"
 "SDL_vulkan.h"
+"SDL_syswm.h"
 "begin_code.h"
 "close_code.h"
 )
